@@ -15,5 +15,5 @@
 -->
 
 <resources>
-    <string name="activity_name_detection">Void Detection</string>
+    <string name="activity_name_detection">Traffic Detection</string>
 </resources>

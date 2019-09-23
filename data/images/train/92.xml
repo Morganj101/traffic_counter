@@ -1,7 +1,7 @@
 <annotation>
 	<folder>train</folder>
-	<filename>157.jpg</filename>
-	<path>C:\traffic_counter\data\images\train\157.jpg</path>
+	<filename>92.jpg</filename>
+	<path>C:\traffic_counter\data\images\train\92.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,22 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>117</xmin>
-			<ymin>234</ymin>
-			<xmax>235</xmax>
-			<ymax>334</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>suv</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>322</xmin>
-			<ymin>243</ymin>
-			<xmax>446</xmax>
-			<ymax>320</ymax>
+			<xmin>52</xmin>
+			<ymin>209</ymin>
+			<xmax>190</xmax>
+			<ymax>373</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +29,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3</xmin>
-			<ymin>256</ymin>
-			<xmax>80</xmax>
-			<ymax>326</ymax>
+			<xmin>343</xmin>
+			<ymin>260</ymin>
+			<xmax>436</xmax>
+			<ymax>304</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>666</xmin>
+			<ymin>221</ymin>
+			<xmax>800</xmax>
+			<ymax>335</ymax>
 		</bndbox>
 	</object>
 </annotation>

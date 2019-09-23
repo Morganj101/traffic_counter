@@ -6,33 +6,21 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>300</width>
-		<height>300</height>
+		<width>800</width>
+		<height>600</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>truck</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>211</xmin>
-			<ymin>112</ymin>
-			<xmax>282</xmax>
-			<ymax>165</ymax>
-		</bndbox>
-	</object>
 	<object>
 		<name>car</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>151</xmin>
-			<ymin>124</ymin>
-			<xmax>186</xmax>
-			<ymax>154</ymax>
+			<xmin>459</xmin>
+			<ymin>251</ymin>
+			<xmax>581</xmax>
+			<ymax>308</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>114</xmin>
-			<ymin>123</ymin>
-			<xmax>142</xmax>
-			<ymax>151</ymax>
+			<xmin>241</xmin>
+			<ymin>247</ymin>
+			<xmax>298</xmax>
+			<ymax>293</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,22 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>92</xmin>
-			<ymin>123</ymin>
-			<xmax>119</xmax>
-			<ymax>151</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>suv</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>75</xmin>
-			<ymin>126</ymin>
-			<xmax>94</xmax>
-			<ymax>145</ymax>
+			<xmin>8</xmin>
+			<ymin>247</ymin>
+			<xmax>67</xmax>
+			<ymax>321</ymax>
 		</bndbox>
 	</object>
 </annotation>

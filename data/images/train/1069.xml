@@ -6,8 +6,8 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>300</width>
-		<height>300</height>
+		<width>800</width>
+		<height>600</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,34 +17,34 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>65</xmin>
-			<ymin>124</ymin>
-			<xmax>90</xmax>
-			<ymax>156</ymax>
+			<xmin>161</xmin>
+			<ymin>251</ymin>
+			<xmax>238</xmax>
+			<ymax>311</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>truck</name>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>262</ymin>
+			<xmax>59</xmax>
+			<ymax>320</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>car</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>34</xmin>
-			<ymin>119</ymin>
-			<xmax>62</xmax>
-			<ymax>157</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>van</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5</xmin>
-			<ymin>123</ymin>
-			<xmax>33</xmax>
-			<ymax>159</ymax>
+			<xmin>296</xmin>
+			<ymin>259</ymin>
+			<xmax>362</xmax>
+			<ymax>298</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -6,8 +6,8 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>300</width>
-		<height>300</height>
+		<width>800</width>
+		<height>600</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,22 +17,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>98</xmin>
-			<ymin>254</ymin>
-			<xmax>171</xmax>
-			<ymax>299</ymax>
+			<xmin>2</xmin>
+			<ymin>261</ymin>
+			<xmax>59</xmax>
+			<ymax>325</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>motorcycle</name>
+		<name>car</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>31</xmin>
-			<ymin>269</ymin>
-			<xmax>70</xmax>
-			<ymax>300</ymax>
+			<xmin>130</xmin>
+			<ymin>150</ymin>
+			<xmax>717</xmax>
+			<ymax>529</ymax>
 		</bndbox>
 	</object>
 </annotation>

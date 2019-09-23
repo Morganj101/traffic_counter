@@ -1,0 +1,14 @@
+<annotation>
+	<folder>train</folder>
+	<filename>157.jpg</filename>
+	<path>C:\traffic_counter\data\images\train\157.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

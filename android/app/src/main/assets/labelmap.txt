@@ -3,6 +3,3 @@ bus
 car
 motorcycle
 semi
-suv
-truck
-van

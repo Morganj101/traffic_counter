@@ -17,18 +17,3 @@ item {
     id: 4
     name: 'semi'
 }
-
-item {
-    id: 5
-    name: 'suv'
-}
-
-item {
-    id: 6
-    name: 'truck'
-}
-
-item {
-    id: 7
-    name: 'van'
-}

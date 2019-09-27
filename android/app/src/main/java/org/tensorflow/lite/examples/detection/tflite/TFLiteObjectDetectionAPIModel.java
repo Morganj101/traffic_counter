@@ -98,12 +98,12 @@ public class TFLiteObjectDetectionAPIModel implements Classifier {
    * @param isQuantized Boolean representing model is quantized or not
    */
   public static Classifier create(
-      final AssetManager assetManager,
-      final String modelFilename,
-      final String labelFilename,
-      final int inputSize,
-      final boolean isQuantized)
-      throws IOException {
+          final AssetManager assetManager,
+          final String modelFilename,
+          final String labelFilename,
+          final int inputSize,
+          final boolean isQuantized)
+          throws IOException {
     final TFLiteObjectDetectionAPIModel d = new TFLiteObjectDetectionAPIModel();
 
     InputStream labelsInput = null;
@@ -199,31 +199,24 @@ public class TFLiteObjectDetectionAPIModel implements Classifier {
     final ArrayList<Recognition> recognitions = new ArrayList<>(NUM_DETECTIONS);
     for (int i = 0; i < NUM_DETECTIONS; ++i) {
       final RectF detection =
-          new RectF(
-              outputLocations[0][i][1] * inputSize,
-              outputLocations[0][i][0] * inputSize,
-              outputLocations[0][i][3] * inputSize,
-              outputLocations[0][i][2] * inputSize);
+              new RectF(
+                      outputLocations[0][i][1] * inputSize,
+                      outputLocations[0][i][0] * inputSize,
+                      outputLocations[0][i][3] * inputSize,
+                      outputLocations[0][i][2] * inputSize);
       // SSD Mobilenet V1 Model assumes class 0 is background class
       // in label file and class labels start from 1 to number_of_classes+1,
       // while outputClasses correspond to class index from 0 to number_of_classes
       int labelOffset = 1;
-        final int classLabel = (int) outputClasses[0][i] + labelOffset;
-        if (inRange(classLabel, labels.size(), 0) && inRange(outputScores[0][i], 1, 0)) {
-          recognitions.add(
-                  new Recognition(
-                          "" + i,
-                          labels.get(classLabel),
-                          outputScores[0][i],
-                          detection));
-        }
-      }
+      recognitions.add(
+              new Recognition(
+                      "" + i,
+                      labels.get((int) outputClasses[0][i] + labelOffset),
+                      outputScores[0][i],
+                      detection));
+    }
     Trace.endSection(); // "recognizeImage"
     return recognitions;
-  }
-
-  private boolean inRange(float number, float max, float min) {
-    return number < max && number >= min;
   }
 
   @Override
